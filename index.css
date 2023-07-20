@@ -8,6 +8,7 @@
 
 @layer components {
   button {
+    @apply bg-primary text-white font-bold px-5 py-2 rounded-md;
     transition: 300ms ease-in;
   }
   button:hover {

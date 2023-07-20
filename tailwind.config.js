@@ -8,14 +8,14 @@ module.exports = {
       sm: '530px',
       md: '700px',
       lg: '900px',
-      xl: '1280px',
+      xl: '1300px',
     },
 
     extend: {
       colors: {
         primary: '#f99201',
         secondary: '#fff19e',
-        support: '#2b3f32',
+        support: '#146b30',
       },
 
       fontFamily: {
@@ -64,7 +64,9 @@ module.exports = {
     },
   },
 
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/container-queries'),
+  ],
   corePlugins: {
     preflight: false,
   },
