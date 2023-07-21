@@ -27,7 +27,7 @@
           <p class="uppercase text-center mt-5 mb-3 px-5 py-1 font-bold text-white [background-image:linear-gradient(90deg,rgba(213,137,48,0.99608)0%,rgb(213,137,48)1%,rgb(108,5,3)31%,rgb(226,141,20)57%,rgb(117,34,17)81%,rgb(217,107,7)100%)]">zniszczone, łamliwe włosy</p>
           <p class="uppercase font-bold text-white text-center">10x mniej uszkodzeń**</p>
         </div>
-      <img src="img/11.png" alt="packaging" class="hidden lg:block relative -bottom-[27%]">
+      <img src="img/11.png" alt="packaging" class="hidden lg:block relative -bottom-[27%] hover:scale-110 transition-transform duration-500" data-animation="zoomInDown" data-duration="1000ms">
     </div>
     <img src="img/14.jpg" alt="packaging" class="lg:hidden w-full">
     <!--                                                                    x2xxx
@@ -38,7 +38,7 @@
 -->
     <div class="w-10/12 mx-auto mt-32 gap-4 grid lg:grid-cols-2 items-center">
 
-      <div class="relative @container">
+      <div class="relative @container" data-animation='fade-from-left'>
         <div class="flex w-[70%] ml-auto -mb-16 relative z-10">
           <div class="border-2 border-primary w-5 border-r-transparent"></div>
           <p class="text-primary text-[clamp(16px,4px+4cqi,24px)] font-light uppercase my-4" >
@@ -88,9 +88,9 @@
                                                                             xxxxx
 -->
     <div class="mt-20 bg-[url(img/30.jpg)] bg-no-repeat bg-center bg-cover h-[603px] pt-10">
-      <div class="flex gap-20 justify-center text-white font-bold w-1/3 mx-auto"><span class="flex-1 text-right">PRZED</span> <span class="flex-1">PO***</span></div>
+      <div class="flex gap-20 justify-center text-white font-bold w-1/3 mx-auto"><span class="flex-1 text-right">PRZED</span> <span class="flex-1" data-animation='fade-in' data-duration='1s' data-delay='1s' >PO***</span></div>
 
-      <p class="uppercase md:text-[24px] lg:text-[35px] text-white font-bold leading-tight text-center [text-shadow:1px_1px_2px_black] xs:ml-[55%] mt-10">
+      <p class="uppercase md:text-[24px] lg:text-[35px] text-white font-bold leading-tight text-center [text-shadow:1px_1px_2px_black] xs:ml-[55%] mt-10" data-animation="zoomInDown" data-delay="3s">
         <span class="text-[2.57em]">Efekt?</span> <br>
         włosy są <br>
         zregenerowane,<br>
@@ -111,16 +111,16 @@
     
         <ul class="space-y-3 text-white mt-6">
     
-          <li class="flex gap-4 items-start">
-            <img src="img/41.png" alt="icon">
+          <li class="flex gap-4 items-start group" data-animation='fade-from-right' >
+            <img src="img/41.png" alt="icon" class="group-hover:scale-110 transition-transform duration-500">
             <p>
               Wszystkie butelki są wykonane w 100%
               z plastiku z recyklingu* i nadają się do ponownego przetworzenia.
             </p>
           </li>
     
-          <li class="flex gap-4 items-start">
-            <img src="img/42.png" alt="icon">
+          <li class="flex gap-4 items-start group" data-animation='fade-from-right' data-delay='750ms' >
+            <img src="img/42.png" alt="icon" class="group-hover:scale-110 transition-transform duration-500">
             <p>
               Marka Garnier została oficjalnie zatwierdzona przez <strong>Cruelty Free International</strong> w ramach
               programu
@@ -128,8 +128,8 @@
             </p>
           </li>
     
-          <li class="flex gap-4 items-start">
-            <img src="img/43.png" alt="icon">
+          <li class="flex gap-4 items-start group" data-animation='fade-from-right' data-delay='1000ms' >
+            <img src="img/43.png" alt="icon" class="group-hover:scale-110 transition-transform duration-500">
             <p>
               <strong>Program Ochrony Pszczół:</strong> Budujemy zrównoważone źródło pozyskiwania miodu
               w Europie, z poszanowaniem pszczół. Nasi pszczelarze stosują tradycyjne metody ochrony pszczół i procesu
@@ -137,10 +137,10 @@
             </p>
           </li>
     
-          <li class="flex gap-4 items-start">
-            <img src="img/44.png" alt="icon">
+          <li class="flex gap-4 items-start group" data-animation='fade-from-right' data-delay='1250ms' >
+            <img src="img/43.png" alt="icon" class="group-hover:scale-110 transition-transform duration-500">
             <p>
-              Gamę Botanic Therapy wyprodukowano
+              Game Botanic Therapy wyprodukowano
               w fabrykach, które stosują program zrównoważonego rozwoju.
             </p>
           </li>
@@ -148,7 +148,7 @@
         </ul>
       </div>
 
-      <div class="relative w-fit group">
+      <div class="relative w-fit group" data-animation='fade-in' data-duration='1s' data-delay='2s' >
         <div
           class="w-5/6 aspect-square rounded-full bg-secondary absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 blur-3xl opacity-30 transition-opacity group-hover:opacity-50 duration-500">
         </div>
@@ -169,7 +169,7 @@
       </p>
 
       <div class='flex flex-wrap justify-center gap-4 text-center'>
-        <div data-animation='fade-from-left' class='min-w-[240px] max-w-[300px] flex-1 mt-10'>
+        <div data-animation='fade-in' data-duration='1s'   class='min-w-[240px] max-w-[300px] flex-1 mt-10'>
           <div class="min-h-[320px] flex"><img src='img/51.png' alt='szampon' class='mx-auto hover:scale-110 transition-transform duration-500 mt-auto' /></div>
           <p class='mt-4 mb-2 font-bold min-h-[2lh]'>Szampon odbudowujący</p>
           <p class='mb-2 min-h-[3lh]'>do zniszczonych,
@@ -177,7 +177,7 @@
           <button>Sprawdź</button>
         </div>
       
-        <div data-animation='fade-in' data-duration='1000ms' data-delay='0s' class='min-w-[240px] max-w-[300px] flex-1 mt-10'>
+        <div data-animation='fade-in' data-duration='1000ms' data-delay='750ms' class='min-w-[240px] max-w-[300px] flex-1 mt-10'>
           <div class="min-h-[320px] flex"><img src='img/52.png' alt='odżywka' class='mx-auto hover:scale-110 transition-transform duration-500 mt-auto' /></div>
           <p class='mt-4 mb-2 font-bold min-h-[2lh]'>Odżywka odbudowująca</p>
           <p class='mb-2 min-h-[3lh]'>do zniszczonych,
@@ -185,7 +185,7 @@
           <button>Sprawdź</button>
         </div>
       
-        <div data-animation='fade-from-right' class='min-w-[240px] max-w-[300px] flex-1 mt-10'>
+        <div data-animation='fade-in' data-duration='1s' data-delay='1250ms'  class='min-w-[240px] max-w-[300px] flex-1 mt-10'>
           <div class="min-h-[320px] flex"><img src='img/53.png' alt='Maska' class='mx-auto hover:scale-110 transition-transform duration-500 mt-auto' /></div>
           <p class='mt-4 mb-2 font-bold min-h-[2lh]'>Maska intensywnie regenerująca</p>
           <p class='mb-2 min-h-[3lh]'>do bardzo zniszczonych włosów
@@ -193,7 +193,7 @@
           <button>Sprawdź</button>
         </div>
 
-        <div data-animation='fade-from-right' class='min-w-[240px] max-w-[300px] flex-1 mt-10'>
+        <div data-animation='fade-in' data-duration='1s' data-delay='1500ms' class='min-w-[240px] max-w-[300px] flex-1 mt-10'>
           <div class="min-h-[320px] flex"><img src='img/54.png' alt='Maska' class='mx-auto hover:scale-110 transition-transform duration-500 mt-auto' /></div>
           <p class='mt-4 mb-2 font-bold min-h-[2lh]'>Odbudowujący krem 3w1 bez
             spłukiwania,</p>
@@ -211,14 +211,32 @@
                                                                             x   x
                                                                             xxxxx
 -->
-    <div class="w-10/12 mx-auto mt-20">
-      *Z wyjątkiem nakrętki, barwników i dodatków.
-**Test instrumentalny po zastosowaniu szamponu i odżywki.
-***Bez retuszu, efekt po stylizacji włosów.
+    <div class="px-[5%] mt-20">
+      <p class="text-sm text-center">
+        *Z wyjątkiem nakrętki, barwników i dodatków. <br>
+        **Test instrumentalny po zastosowaniu szamponu i odżywki. <br>
+        ***Bez retuszu, efekt po stylizacji włosów. <br>
+      </p>
+      <div class="mt-10 bg-support px-[5%] py-4">
+        <div class="flex flex-wrap gap-6 justify-center items-center w-2/3 text-white text-[12px] leading-none mx-auto text-sm @container">
+          
+          <img src="img/61.png" alt="Cruelty Free logo" class="flex-1 min-w-[160px] max-w-[240px]">
 
-Z MIODEM POZYSKIWANYM W ZRÓWNOWAŻONY SPOSÓB
+          <svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMinYMin meet" viewBox="0 0 190 24" class="flex-1 min-w-[160px] max-w-[240px]">
+            <foreignObject width="100%" height="100%" xmlns="http://www.w3.org/1999/xhtml">
+              <p class="text-[12px]">Z <strong>MIODEM</strong> POZYSKIWANYM <br>W ZRÓWNOWAŻONY SPOSÓB</p>
+            </foreignObject>
+          </svg>
 
-BUTELKA W 100% Z PLASTIKU Z RECYKLINGU
+          <svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMinYMin meet" viewBox="0 0 180 24" class="flex-1 min-w-[160px] max-w-[240px]">
+            <foreignObject width="100%" height="100%" xmlns="http://www.w3.org/1999/xhtml">
+              <p class="text-[12px]">BUTELKA <strong>W 100% <br>Z PLASTIKU Z RECYKLINGU</strong></p>
+            </foreignObject>
+          </svg>
+          
+        </div>
+      </div>
+
     </div>
     
 

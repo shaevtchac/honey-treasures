@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Warstwa_2" data-name="Warstwa 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 306.29 54">
+  <defs>
+    <style>
+      .cls-1 {
+        font-family: Gotham-Bold, 'Gotham Bold';
+        font-weight: 700;
+      }
+
+      .cls-2, .cls-3 {
+        font-family: Gotham-Light, 'Gotham Light';
+        font-weight: 300;
+      }
+
+      .cls-3 {
+        letter-spacing: -.05em;
+      }
+
+      .cls-4 {
+        letter-spacing: .03em;
+      }
+
+      .cls-5 {
+        fill: #fff;
+        font-size: 25px;
+      }
+    </style>
+  </defs>
+  <g id="COMPO">
+    <text class="cls-5" transform="translate(.06 21.75) rotate(-.15)"><tspan class="cls-4"><tspan class="cls-2" x="0" y="0">Z </tspan><tspan class="cls-1" x="20.38" y="0">MIODEM</tspan><tspan class="cls-2" x="116.47" y="0" xml:space="preserve"> POZYSKIWANYM</tspan></tspan><tspan class="cls-3"><tspan x="0" y="26">W ZRÓWNOWAŻONY SPOSÓB</tspan></tspan></text>
+  </g>
+</svg>
